@@ -1,0 +1,42 @@
+body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    display: flex;
+    flex-direction: column;
+}
+
+#character{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+#character div{
+    display: flex;
+    flex-direction: column;
+
+    margin: 1%;
+    padding: 1%;
+
+    border-style: solid;
+    border-width: 0.01em;
+
+}
+#character div h2{
+    margin: 0 auto;
+}
+
+img{
+    height: auto;
+    width: 50%;
+
+    margin: 0 auto;
+}

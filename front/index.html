@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ryck&Morty-Chars</title>
+</head>
+<body>
+    <h1>Ryck & Morty Chars API :</h1>
+    
+    <section>
+        <label for="charName"><strong>Chose a character</strong></label>
+        
+        <select id="charNameSelect"></select>
+        <input type="text" id="charName" placeholder="Rick Sanchez" />
+        
+        <button onclick="getCharInfo(false)">Get Info</button>
+
+        <button onclick="getCharInfo(true)">ALL CHARS</button>
+    </section>
+    
+    <div id="character"></div>
+
+    <script src="./script.js"></script>
+</body>
+</html>
